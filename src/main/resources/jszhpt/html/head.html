@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+	<title>头部</title>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link href="../css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<div class="page-header">
+       <h1 class="left">技 术 转 化 平 台     <small>-----面向企业和科研人员</small></h1>
+        <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <div class="login">
+      	<button class="btn btn-default btn-cricle btn_login" data-toggle="modal" data-target="#loginModal">登录</button>
+      	<button class="btn btn-default btn-cricle btn_login" data-toggle="modal" data-target="#loginModal">注册</button>
+      </div>
+    </div>
+<!-- 导航栏 -->
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+   <!--  <div class="navbar-header">
+        <a class="navbar-brand" href="#">菜鸟教程</a>
+    </div> -->
+    <div>
+        <ul class="nav navbar-nav">
+            <li class="active kuan"><a href="index.html">首页</a></li>
+            <li class="kuan"><a href="technology.html">科技成果</a></li>
+            <li class="kuan"><a href="exports.html">技术专家</a></li>
+            <li class="kuan"><a href="demand.html">技术需求</a></li>
+            <li class="kuan"><a href="#">交易中心</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle kuan" data-toggle="dropdown">
+                    成果转化
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">技术成果发布</a></li>
+                    <li><a href="#">技术需求登记</a></li>
+                    <!-- <li class="divider"></li>
+                    <li><a href="#">分离的链接</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">另一个分离的链接</a></li> -->
+                </ul>
+            </li>
+            <li class="user"><a href="#">个人中心</a></li>
+        </ul>
+    </div>
+    </div>
+</nav>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/init.js" type="text/script"></script>
+    <script src="../js/util.js"></script>
+
+</body>
+<style type="text/css">
+    .page-header{
+        position: relative;
+    }
+    .left{
+        padding-left: 50px;
+    }
+    .navbar-form{
+        position: absolute;
+        top:0;
+        left:800px;
+    }
+    .login{
+        position: absolute;
+        top:0;
+        left: 1200px;
+    }
+        .kuan{
+        position: relative;
+        width: 120px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .kuan:hover{
+        background-color: #BDBDBD;
+    }
+    .user{
+        position: absolute;
+        left: 350px;
+        width: 100px;
+        text-align: center;
+        font-size: 16px;
+    }
+        .container-fluid{
+        padding-left: 100px;
+    }
+</style>

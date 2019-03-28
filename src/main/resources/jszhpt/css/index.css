@@ -1,0 +1,77 @@
+/* 轮播图 */
+.carousel {
+	height: 350px;
+	background-color: #000;
+}
+.carousel .item {
+	background-color: #000;
+	height: 350px;
+}
+.carousel img{
+	margin: auto;
+	width: 100%;
+}
+.carousel-caption{
+	margin-bottom: 58px;
+}
+.carousel-indicators {
+	margin-bottom: 38px;
+}
+
+/* 分割线 */
+.div_divider {
+	color: #34374C;
+}
+.hr_2 {
+	width:100%;
+}
+
+/* 文章顶部栏 */
+.item_article_first {
+	background-color: #34374C !important;
+	border-color: #34374C !important;
+}
+
+.item_article {
+	min-height: 120px;
+	/*display: flex;
+	flex-direction: row;
+	align-items: center*/;
+	/*overflow: hidden;*/
+}
+
+.item_article .row {
+	width: 75%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	overflow: hidden;	
+}
+
+.div_center {
+    height: auto;
+    max-height: 140px;  
+    overflow: hidden; 
+}
+
+.div_article_title {
+	font-size: 22px;
+}
+
+.div_article_content {
+	color: #a0a0a0;
+    word-wrap:break-word;  
+    word-break:break-all;  
+	width: 100%;
+}
+
+.iv_article {
+	width: 88px;
+	height: 88px;
+/*	margin: auto;*/
+}
+
+.div_right_info {
+	text-align: right;
+}
+
