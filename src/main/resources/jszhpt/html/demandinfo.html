@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>需求信息</title>
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link href="../css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="headpage"></div>
+	<ol class="breadcrumb">
+	  <li>当前位置：</li>
+	  <li><a href="index.html">首页</a></li>
+	  <li><a href="demand.html">技术需求</a></li>
+	  <li>详细页</li>
+    </ol>
+
+    <!-- 需求信息 -->
+    <div class="demand">
+    	<h1>先进材料，电子信息方面</h1>
+    	<div class="demand-content">
+    		<div class="demand-cont">
+    			<span>截止日期：2020-02-23</span>
+    			<span class="hur1">行业分类：电子信息</span>
+    			<span>发布时间：2020-02-23</span>
+    			<span>投入预算：5000元</span>
+    			<span>联系人：黄雅丽</span>
+    			<span><img src="../img/定位.png" class="dingweiimg">四川 绵阳</span>
+    		</div>
+    	</div>
+    </div>
+    <div class="demand-info">
+    	<h2>需求简介</h2>
+    	<div class="hur2" style="word-break:break-all;word-wrap:break-word;">
+    		野生竹笋采摘到加工过程中，部分笋在笋节部分因泥土和褐变多重因素产生有较多黑色条纹，影响产品外观。用手工去除，效率太低。
+    		<br>
+			需有验证成功的高效快捷的机械去除办法，或其它无害去除办法
+			<br>
+			有很少的人工，对此类竹笋采取机械或其它能有效快捷的解决办法
+			<br>
+			去除干净彻底，无有害残留，效率高 
+    	</div>
+    </div>
+    
+
+	<!-- <div class="tuijian">
+		<h2>推荐服务：</h2>
+		<ul>
+			<li><div class="tuijian_info"></div></li>
+			<li><div class="tuijian_info"></div></li>
+		</ul>
+	</div> -->
+
+    <div class="footpage"></div>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+  	<!-- Include all compiled plugins (below), or include individual files as needed -->
+  	<script src="../js/bootstrap.min.js"></script>
+  	<script src="../js/init.js" type="text/script"></script>
+  	<script src="../js/util.js"></script>
+  	<script type="text/javascript">
+  		$(function(){
+  			$(".headpage").load("head.html");
+  		});
+  		$(function(){
+  			$(".footpage").load("foot.html");
+  		});
+  	</script>
+
+</body>
+<style type="text/css">
+	.demand{
+		width: 85%;
+		height: 150px;
+		margin: 0 auto;
+		border: 1px #ccc solid;
+		padding: 10px 30px;
+		margin-bottom: 15px;
+		color: #1b1b1b;
+		text-align: left;
+	}
+	.demand h1{
+		font-size: 20px;
+		font-family: "Microsoft YaHei";
+		font-weight: 400;
+		line-height: 20px;
+	}
+	.damand-content{
+		width: 80px;
+		margin: 0;
+		padding: 0;
+	}
+	.demand-cont{
+		width: 840px;
+		float: left;
+		height: 80px;
+		font-size: 12px;
+		font-family: 'Microsoft YaHei',宋体;
+		color: #1b1b1b;
+		text-align: left;
+	}
+	.demand-cont span{
+		float: left;
+		font-size: 14px;
+		width: 200px;
+		height: 40px;
+		line-height: 40px;
+		overflow: hidden;
+	}
+	.demand-cont span.hur1{
+		width: 600px;
+	}
+	.dingweiimg{
+    	width: 18px;
+    	height: 18px;
+    }
+    .demand-info{
+    	width: 85%;
+    	margin: 0 auto;
+    	border: 1px #ccc solid;
+    	border-top: 2px #1086e8 solid;
+    }
+    .demand-info h2{
+    	/*height: 50px;*/
+		line-height: 20px;
+		padding: 0 20px;
+		font-size: 18px;
+		font-family: "Microsoft YaHei";
+		color: #1086e8;
+		font-weight: 400;
+    }
+    .demand-info div.hur2{
+    	padding: 0 30px 20px 30px;
+		font-size: 14px;
+		line-height: 2em;
+		text-indent: 2em;
+
+    }
+</style>
+</html>
